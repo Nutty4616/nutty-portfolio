@@ -5,6 +5,7 @@
     $primary-color 0%,
     $secondary-color 100%
   );
+  isolation: isolate;
   color: $white-color;
   height: 100%;
   border-top: 0px;
