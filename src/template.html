@@ -1,247 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Put here your site title -->
-    <title>Nutty Nkosi | Developer</title>
-    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[Front-End] [Nutty], skill" />
-    <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="Nutty Nkosi | Developer" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
-    <!-- Required librarys -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-      ScrollReveal({ reset: false });
-    </script>
-  </head>
+  <!-- Put here your site title -->
+  <title>Nutty Nkosi | Developer</title>
+  <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="[Front-End] [Nutty], skill" />
+  <!-- Improve your SEO by adding a small descrption of you -->
+  <meta name="description" content="Nutty Nkosi | Developer" />
 
-  <!-- Follow the HTML instructions to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+  <!-- Required librarys -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    ScrollReveal({
+      reset: false
+    });
+  </script>
+</head>
 
-    <!-- **** Hero Section **** -->
-    <div id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title" class="load-hidden">
-          Hi there, my name is <span class="text-color-main">Nutty Nkosi</span>
-          <br />
-          <p class="contact-wrapper__text">
-            A self-tought front-end developer
-          </p>
-        </h1>
-        <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+<!-- Follow the HTML instructions to create your stunning portfolio website -->
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <div id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title" class="load-hidden">
+        Hi there, my name is <span class="text-color-main">Nutty Nkosi</span>
+        <br />
+        <p class="contact-wrapper__text">
+          A self-tought front-end developer
         </p>
+      </h1>
+      <p class="hero-cta" class="load-hidden">
+        <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+      </p>
+    </div>
+  </div>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about" style="isolation: isolate;">
+    <div class="container">
+      <h2 class="section-title">
+        About me
+      </h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image">
+            <img class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/profile.jpg"
+              alt="Profile Image" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              Nutty is a self-taught Front-End developer.
+              He is currently doing his final year in Information Technology at Richfield Graduate Institute of
+              Technology.
+              His passion for Web Development using JavaScript was sparked by a Design internship he completed at the
+              Johannesburg Centre for Software Engineering.
+            </p>
+            <p class="about-wrapper__info-text">
+              Nutty has a willing to learn attitude,
+              is always seeking more knowledge in the I.T industry and is a firm believer in never settling for less.
+            </p>
+            <span class="d-flex mt-3">
+              <a target="_blank" class="cta-btn cta-btn--resume"
+                href="https://drive.google.com/open?id=1eRUPCzbFOB3AuusJkD1dN7_r_CRE-5UJ">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- /END Hero Section -->
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** About Section **** -->
-    <section id="about" style="isolation: isolate;">
-      <div class="container">
-        <h2 class="section-title">
-          About me
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">
+          Projects
         </h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image">
-              <img
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="./assets/profile.jpg"
-                alt="Profile Image"
-              />
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Nutty Portfolio</h3>
+              <div>
+                <p class="mb-4">
+                  This very website you're now watching. I wanted something fast and with good SEO for my portfolio.
+                  It reads data from markdown files, so it's super easy for me to keep adding Portfolio items as I keep
+                  developing stuff.
+                  It also has a cool dark mode switch since I couldn't decide between a dark or light design.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://nutty-portfolio.now.sh/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Nutty4616/nutty-portfolio">
+                Source Code
+              </a>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info">
-              <p class="about-wrapper__info-text">
-                Nutty is a self-taught Front-End developer.
-                He is currently doing his final year in Information Technology at Richfield Graduate Institute of Technology.
-                His passion for Web Development using JavaScript was sparked by a Design internship he completed at the Johannesburg Centre for Software Engineering.
-              </p>
-              <p class="about-wrapper__info-text">
-                Nutty has a willing to learn attitude, 
-                is always seeking more knowledge in the I.T industry and is a firm believer in never settling for less.
-              </p>
-              <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="https://drive.google.com/open?id=1eRUPCzbFOB3AuusJkD1dN7_r_CRE-5UJ">
-                  View Resume
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /END About Section -->
-
-    <!-- **** Projects Section **** -->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Nutty Portfolio</h3>
-                <div>
-                  <p class="mb-4">
-                    This very website you're now watching. I wanted something fast and with good SEO for my portfolio. 
-                    It reads data from markdown files, so it's super easy for me to keep adding Portfolio items as I keep developing stuff.
-                     It also has a cool dark mode switch since I couldn't decide between a dark or light design.
-                  </p>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://nutty-portfolio.now.sh/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/project1.png" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://nutty-portfolio.now.sh/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Nutty4616/nutty-portfolio">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://nutty-portfolio.now.sh/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project1.png" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
+        </div>
+        <!-- /END Project -->
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Yaka Bags Website</h3>
-                <div>
-                  <p class="mb-4">
-                    Designed and developed the website with good SEO for a start-up company, co-founded by Mr Sivuyile
-                    Pezulu and Mr Romeo Nkosi. Yaka Bags offers premium kiddies backpacks, with personalized
-                    accessories. The website uses: HTML5, CSS3, and jQuery for animations.
-                  </p>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Yaka Bags Website</h3>
+              <div>
+                <p class="mb-4">
+                  Designed and developed the website with good SEO for a start-up company, co-founded by Mr Sivuyile
+                  Pezulu and Mr Romeo Nkosi. Yaka Bags offers premium kiddies backpacks, with personalized
+                  accessories. The website uses: HTML5, CSS3, and jQuery for animations.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://yaka-bags.now.sh/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Nutty4616/yaka_bags">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://yaka-bags.now.sh/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/project2.png" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://yaka-bags.now.sh/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Nutty4616/yaka_bags">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://yaka-bags.now.sh/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project2.png" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
+        </div>
+        <!-- /END Project -->
 
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Movie Fight</h3>
-                <div>
-                  <p class="mb-4">
-                    The idea of this project is that the user is going to search for a Movie
-                    on the right side of the screen and a different one on left side on the screen.
-                    Once they searched for it, it fetches information from an API, and displays it on the screen
-                  </p>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Movie Fight</h3>
+              <div>
+                <p class="mb-4">
+                  The idea of this project is that the user is going to search for a Movie
+                  on the right side of the screen and a different one on left side on the screen.
+                  Once they searched for it, it fetches information from an API, and displays it on the screen
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://movie-app-eight.now.sh/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Nutty4616/MovieApp">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://movie-app-eight.now.sh/" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/project3.png" />
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://movie-app-eight.now.sh/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Nutty4616/MovieApp">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://movie-app-eight.now.sh/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/project3.png" />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
         </div>
+        <!-- /END Project -->
       </div>
-    </section>
-    <!-- /END Projects Section -->
+    </div>
+  </section>
+  <!-- /END Projects Section -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact" style="isolation: isolate;">
-      <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">
-            If you want to talk, you find me at
-          </p>
-          <a
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:nkosin361@gmail.com"
-            >Call to Action</a
-          >
-        </div>
-      </div>
-    </section>
-    <!-- /END Contact Section -->
-
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">  
-          <a href="https://www.linkedin.com/in/nutty-nkosi-846361160/" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a href="https://www.instagram.com/nutty.nkosi/" target="_blank">
-            <i class="fa fa-instagram fa-inverse"></i>
-          </a>
-          <a href="https://github.com/Nutty4616" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
-        <!-- If you give me some credit, will be huge for me :) -->
-        <p class="footer__text">
-          © 2020 - Template developed by <a href="https://github.com/Nutty4616" target="_blank">Nutty Nkosi</a>
-          </a>
+  <!-- **** Contact Section **** -->
+  <section id="contact" style="isolation: isolate;">
+    <div class="container">
+      <h2 class="section-title">
+        Contact
+      </h2>
+      <div class="contact-wrapper">
+        <p class="contact-wrapper__text">
+          If you want to talk, you find me at
         </p>
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:nkosin361@gmail.com">Email Me</a>
       </div>
-    </footer>
-    <!-- /END Footer Section -->
-  </body>
+    </div>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/nutty-nkosi-846361160/" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a href="https://www.instagram.com/nutty.nkosi/" target="_blank">
+          <i class="fa fa-instagram fa-inverse"></i>
+        </a>
+        <a href="https://github.com/Nutty4616" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr />
+
+      <!-- If you give me some credit, will be huge for me :) -->
+      <p class="footer__text">
+        © 2020 - Template developed by <a href="https://github.com/Nutty4616" target="_blank">Nutty Nkosi</a>
+        </a>
+      </p>
+    </div>
+  </footer>
+  <!-- /END Footer Section -->
+</body>
+
 </html>
