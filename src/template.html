@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" /> -->
+  
   <link rel="icon" type="image/png" href="./assets/favicon-16x16.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" sizes="16x16" />
 
@@ -276,11 +276,17 @@
 
       <!-- If you give me some credit, will be huge for me :) -->
       <p class="footer__text">
-        © 2020 - Template developed by <a href="https://github.com/Nutty4616" target="_blank">Nutty Nkosi</a>
+       Copyright © <span class="year"></span> - Template developed by <a href="https://github.com/Nutty4616" target="_blank">Nutty Nkosi</a>
         </a>
       </p>
     </div>
   </footer>
+  <script>
+    const yearEl = document.querySelector('.year');
+    const date = new Date();
+    const year = date.getFullYear();
+    yearEl.innerHTML = year;
+  </script>
   <!-- /END Footer Section -->
 </body>
 
