@@ -7,13 +7,13 @@ module.exports = merge(common, {
   mode: 'development',
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/template.html',
-      favicon: './src/assets/favicon.png'
-    })
+      favicon: './src/assets/favicon.png',
+    }),
   ],
   module: {
     rules: [
@@ -22,9 +22,9 @@ module.exports = merge(common, {
         use: [
           'style-loader', //3. Inject styles into DOM
           'css-loader', //2. Turns css into commonjs
-          'sass-loader'
-        ] //1. Turns sass into css
-      }
-    ]
-  }
+          'sass-loader',
+        ], //1. Turns sass into css
+      },
+    ],
+  },
 });

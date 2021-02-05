@@ -11,7 +11,7 @@ module.exports = merge(common, {
   mode: 'production',
   output: {
     filename: '[name].[contentHash].bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
   },
   optimization: {
     minimizer: [
@@ -23,16 +23,16 @@ module.exports = merge(common, {
         minify: {
           removeAttributeQuotes: true,
           collapseWhitespace: true,
-          removeComments: true
-        }
-      })
-    ]
+          removeComments: true,
+        },
+      }),
+    ],
   },
   plugins: [
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
-      filename: '[name].[contentHash].css'
-    })
+      filename: '[name].[contentHash].css',
+    }),
   ],
   module: {
     rules: [
@@ -41,9 +41,9 @@ module.exports = merge(common, {
         use: [
           MiniCssExtractPlugin.loader, //3. Extract css into files
           'css-loader', //2. Turns css into commonjs
-          'sass-loader'
-        ] //1. Turns sass into css
-      }
-    ]
-  }
+          'sass-loader',
+        ], //1. Turns sass into css
+      },
+    ],
+  },
 });
